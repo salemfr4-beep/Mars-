@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="مَرْسَى — أناقة هادئة، وتفاصيل تليق بك.">
+  <title>مَرْسَى | MARSA</title>
+  <style>
+    :root{--bg:#090909;--panel:#11100e;--gold:#c9a56b;--gold2:#f0d7a4;--cream:#f5efe4;--muted:#aaa196;--line:#30271c}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--cream);font-family:"Tahoma","Arial",sans-serif;line-height:1.8}
+    a{color:inherit;text-decoration:none} .wrap{width:min(1160px,calc(100% - 44px));margin:auto}
+    header{position:sticky;top:0;z-index:10;background:#090909eF;border-bottom:1px solid #ffffff12;backdrop-filter:blur(14px)}
+    .nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:12px}.brand-mark{width:42px;height:48px}
+    .brand-name{font-family:Georgia,serif;letter-spacing:5px;color:var(--gold2);font-size:20px;direction:ltr}
+    .links{display:flex;gap:30px;color:#d6cfc3;font-size:14px}.links a:hover{color:var(--gold2)}
+    .nav-cta,.btn{border:1px solid var(--gold);padding:10px 20px;color:var(--gold2);font-size:13px;transition:.25s}
+    .nav-cta:hover,.btn:hover{background:var(--gold);color:#100d08}
+    .hero{min-height:690px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:55px;padding:75px 0 90px}
+    .eyebrow{color:var(--gold);font-size:12px;letter-spacing:4px;margin:0 0 18px}
+    h1{font-size:clamp(48px,7vw,86px);line-height:1.2;margin:0 0 18px;font-weight:500;color:var(--gold2)}
+    h1 span{display:block;font-family:Georgia,serif;direction:ltr;text-align:right;font-size:.42em;letter-spacing:12px;color:#e8d5b5;margin-top:12px}
+    .hero-copy{color:#bdb4a8;max-width:470px;font-size:16px;margin:0 0 32px}
+    .actions{display:flex;gap:14px;flex-wrap:wrap}.btn.primary{background:var(--gold);color:#100d08}
+    .hero-art{position:relative;min-height:500px;display:grid;place-items:center}
+    .hero-art:before{content:"";position:absolute;width:min(440px,90%);aspect-ratio:1;border:1px solid #b8955b55;border-radius:50%;box-shadow:0 0 100px #b8955b10}
+    .arch{width:min(390px,88%);position:relative;z-index:1;filter:drop-shadow(0 20px 45px #000)}
+    .arch svg{width:100%;height:auto}
+    .section{padding:92px 0;border-top:1px solid #ffffff12}
+    .section-head{text-align:center;margin-bottom:42px}.section-head h2{font-size:34px;font-weight:400;color:var(--gold2);margin:0 0 8px}
+    .section-head p{color:var(--muted);margin:0;font-size:14px}
+    .collections{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .collection{min-height:300px;background:linear-gradient(145deg,#1a1712,#0e0d0c);border:1px solid var(--line);display:flex;flex-direction:column;justify-content:flex-end;padding:26px;position:relative;overflow:hidden}
+    .collection:before{content:"";position:absolute;width:210px;height:260px;border:1px solid #c9a56b55;border-radius:48% 48% 8% 8%;top:25px;left:50%;transform:translateX(-50%);background:linear-gradient(110deg,#c9a56b0b,#fff0)}
+    .collection:after{content:"";position:absolute;width:115px;height:210px;border:1px solid #c9a56b33;border-radius:48% 48% 10% 10%;top:55px;left:50%;transform:translateX(-50%)}
+    .collection small{color:var(--gold);z-index:1}.collection h3{font-size:22px;font-weight:400;margin:4px 0 0;z-index:1}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+    .about h2{font-size:36px;font-weight:400;color:var(--gold2);margin:0 0 15px}.about p{color:var(--muted);margin:0}
+    .about-mark{border:1px solid var(--line);min-height:270px;display:grid;place-items:center;background:radial-gradient(ellipse,#241c10,#0b0a09 70%)}
+    .about-mark strong{font-family:Georgia,serif;letter-spacing:14px;color:var(--gold2);font-size:42px;direction:ltr}
+    .contact{text-align:center;background:linear-gradient(180deg,#100e0b,#090909)}
+    .contact h2{font-size:34px;font-weight:400;color:var(--gold2);margin:0 0 8px}.contact p{color:var(--muted);margin:0 0 26px}
+    footer{border-top:1px solid #ffffff12;padding:25px 0;color:#847d73;font-size:12px}
+    .footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:760px){.links{display:none}.nav{height:72px}.hero{grid-template-columns:1fr;padding:55px 0 45px;gap:15px;text-align:center}.hero-copy{margin-inline:auto}.actions{justify-content:center}.hero-art{min-height:360px}.arch{width:min(300px,78%)}.collections{grid-template-columns:1fr}.collection{min-height:250px}.about{grid-template-columns:1fr;gap:28px}.section{padding:68px 0}h1 span{text-align:center}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="مرسى الرئيسية">
+      <svg class="brand-mark" viewBox="0 0 60 70" fill="none" aria-hidden="true"><path d="M30 3C14 13 6 24 6 39v27h48V39C54 24 46 13 30 3Z" stroke="#C9A56B" stroke-width="2"/><path d="M30 18c-8 0-12 7-12 14 0 5 3 9 7 11-7 5-9 13-11 22h32c-2-9-4-17-11-22 4-2 7-6 7-11 0-7-4-14-12-14Z" stroke="#E7C994" stroke-width="1.6"/></svg>
+      <span class="brand-name">MARSA</span>
+    </a>
+    <nav class="links"><a href="#home">الرئيسية</a><a href="#collections">المجموعات</a><a href="#about">عن مرسى</a><a href="#contact">تواصل معنا</a></nav>
+    <a class="nav-cta" href="#collections">اكتشفي المجموعة</a>
+  </div>
+</header>
+<main>
+  <section class="wrap hero" id="home">
+    <div>
+      <p class="eyebrow">أناقة تنساب بهدوء</p>
+      <h1>مَرْسَى<span>MARSA</span></h1>
+      <p class="hero-copy">حيث تلتقي البساطة بالفخامة. عبايات بتفاصيل أنيقة، صُممت لترافق حضورك في كل يوم ومناسبة.</p>
+      <div class="actions"><a class="btn primary" href="#collections">تصفحي المجموعات</a><a class="btn" href="#about">اكتشفي حكايتنا</a></div>
+    </div>
+    <div class="hero-art">
+      <div class="arch">
+        <svg viewBox="0 0 420 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M210 12C100 72 48 132 48 242v260h324V242C372 132 320 72 210 12Z" stroke="#C9A56B" stroke-width="3"/>
+          <path d="M210 78c-34 0-55 27-55 61 0 25 12 44 32 55-42 25-60 77-70 144l-27 137c34 16 78 25 120 25s86-9 120-25l-27-137c-10-67-28-119-70-144 20-11 32-30 32-55 0-34-21-61-55-61Z" stroke="#E6C58D" stroke-width="2.5"/>
+          <path d="M187 194c14 30 20 82 18 146l-9 160M233 194c-14 30-20 82-18 146l9 160" stroke="#C9A56B" stroke-width="1.5"/>
+          <path d="M280 280c29-38 56-55 82-60M286 300c35-25 61-34 85-35M294 320c31-13 54-17 77-15" stroke="#C9A56B" stroke-width="2" stroke-linecap="round"/>
+          <path d="M77 476c45-13 88-13 133 0s88 13 133 0" stroke="#C9A56B" stroke-width="2"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="collections">
+    <div class="wrap">
+      <div class="section-head"><p class="eyebrow">MARSA COLLECTIONS</p><h2>اختاري أناقتك</h2><p>مساحة مخصصة لمجموعات مرسى القادمة</p></div>
+      <div class="collections">
+        <article class="collection"><small>01 / DAILY</small><h3>عبايات يومية</h3></article>
+        <article class="collection"><small>02 / ELEGANT</small><h3>عبايات راقية</h3></article>
+        <article class="collection"><small>03 / OCCASION</small><h3>عبايات مناسبات</h3></article>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="about">
+    <div class="wrap about">
+      <div><p class="eyebrow">OUR STORY</p><h2>تفاصيل بسيطة، أثر لا يُنسى</h2><p>مرسى علامة تنطلق من حب الأناقة الهادئة والاهتمام بالتفاصيل. هذه المساحة مخصصة للتعريف بالمتجر وفلسفته، ويمكن لاحقاً إضافة قصة العلامة ومعلومات الخامات والتفصيل والشحن.</p></div>
+      <div class="about-mark"><strong>MARSA</strong></div>
+    </div>
+  </section>
+  <section class="section contact" id="contact">
+    <div class="wrap"><p class="eyebrow">WE WOULD LOVE TO HEAR FROM YOU</p><h2>خلّينا على تواصل</h2><p>قريباً يمكنك التواصل معنا وطلب عبايتك مباشرة من هنا.</p><a class="btn primary" href="mailto:hello@marsa.example">راسلينا</a></div>
+  </section>
+</main>
+<footer><div class="wrap footer-inner"><span>© 2026 MARSA — جميع الحقوق محفوظة</span><span>مَرْسَى | MARSA</span></div></footer>
+</body>
+</html>
